@@ -1,0 +1,28 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF3E0; /* Pastel White */
+    color: #36454F; /* Font Color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for headings */
+h1, h2, h3 {
+    color: #36454F;
+}
+
+/* Style for paragraphs */
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #C0DE00;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
