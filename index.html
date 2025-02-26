@@ -3,15 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Nurture - Plants & Gardening</title>
     <link rel="stylesheet" href="style.css">
-    <title>My First HTML Page</title>
 </head>
 <body>
 
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic HTML5 structure.</p>
+    <header>
+        <nav>
+            <div class="logo">NatureNurture</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="hero">
+        <h1>Plant for Your Home</h1>
+        <p>We offer you a wide range of artificial and natural flowers</p>
+        <button onclick="shopNow()">Shop Now</button>
+    </section>
 
+    <section class="stats">
+        <div>
+            <h2>1.5L+</h2>
+            <p>Clients</p>
+        </div>
+        <div>
+            <h2>45K+</h2>
+            <p>Types of Plants</p>
+        </div>
+        <div>
+            <h2>2.2K+</h2>
+            <p>Gardening Events</p>
+        </div>
+    </section>
 
+    <section class="products">
+        <h2>Best Sellers</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/money-plant.jpg" alt="Money Plant">
+                <h3>Pothos (Money Plant)</h3>
+                <p>₹521</p>
+            </div>
+            <div class="product">
+                <img src="images/peace-lily.jpg" alt="Peace Lily">
+                <h3>Peace Lily</h3>
+                <p>₹770</p>
+            </div>
+            <div class="product">
+                <img src="images/snake-plant.jpg" alt="Snake Plant">
+                <h3>Snake Plant</h3>
+                <p>₹475</p>
+            </div>
+            <div class="product">
+                <img src="images/natural-plant.jpg" alt="Natural Plant">
+                <h3>Natural Plants</h3>
+                <p>₹545</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <h2>Tips for Plant Lovers</h2>
+        <div class="blog-list">
+            <div class="blog-item">
+                <h3>Cacti and Succulents: Low-Maintenance Living</h3>
+                <p>17 Sept 2024</p>
+            </div>
+            <div class="blog-item">
+                <h3>Gift Ideas: The Perfect Plant for Every Person</h3>
+                <p>22 Aug 2024</p>
+            </div>
+            <div class="blog-item">
+                <h3>Urban Gardening: Creating Your Green Oasis</h3>
+                <p>23 July 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <h2>What Our Happy Clients Say</h2>
+        <blockquote>
+            "Possibility to purchase at any time, regardless of the season, weather, and time of day. The plants I bought really enhanced my bedroom. I even got a gardening license and started my own little garden on the terrace."
+            <br> - <strong>Anna Frank</strong> (12 Sept 2024)
+        </blockquote>
+    </section>
+
+    <footer>
+        <p>© Nature Nurture 1993-2024. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
