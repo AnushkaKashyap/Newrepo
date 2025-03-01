@@ -10,20 +10,40 @@
 
     <header>
         <nav>
-            <div class="logo">NatureNurture</div>
-            <ul>
-                <li><a href="#">Home</a></li>
+            <div class="logo">
+                <img src="images/Logo.svg" alt="Nurture Nature">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="header-icons">
+                <a href="#"><img src="images/search.svg" alt="Search"></a>
+                <a href="#"><img src="images/cart.svg" alt="Cart"></a>
+                <a href="#"><img src="images/user.svg" alt="User"></a>
+            </div>
         </nav>
     </header>
-
+    
     <section class="hero">
-        <h1>Plant for Your Home</h1>
-        <p>We offer you a wide range of artificial and natural flowers</p>
-        <button onclick="shopNow()">Shop Now</button>
+        <div class="hero-content">
+            <h2>Plant for your home</h2>
+            <p>We offer you a wide range of artificial and natural flowers</p>
+            <div class="hero-btn">
+                <button class="shop-now">Shop Now</button>
+                <button class="arrow-btn">→</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero.png" alt="Cactus Plant">
+            <div class="pagination">
+                <span class="prev">←</span>
+                <span class="pg">1/4</span>
+                <span class="next">→</span>
+            </div>
+        </div>
     </section>
 
     <section class="stats">
@@ -46,26 +66,21 @@
         <div class="product-list">
             <div class="product">
                 <img src="images/money-plant.png" alt="Money Plant">
-                <div class="product-content">
-                    <img src="images/buy-icon.svg" alt="Buy"> <!-- Buy Icon -->
-                    <div>
-                        <h3>Pothos (Money Plant)</h3>
-                        <p>₹521</p>
-                    </div>
-                </div>
+                <h3>Pothos (Money Plant)</h3>
+                <p>₹521</p>
             </div>
             <div class="product">
-                <img src="images/peace-lily.png" alt="Peace Lily" width="300">
+                <img src="images/peace-lily.png" alt="Peace Lily" >
                 <h3>Peace Lily</h3>
                 <p>₹770</p>
             </div>
             <div class="product">
-                <img src="images/snake-plant.png" alt="Snake Plant" width="300">
+                <img src="images/snake-plant.png" alt="Snake Plant">
                 <h3>Snake Plant</h3>
                 <p>₹475</p>
             </div>
             <div class="product">
-                <img src="images/natural-plant.png" alt="Natural Plant" width="300">
+                <img src="images/natural-plant.png" alt="Natural Plant" >
                 <h3>Natural Plants</h3>
                 <p>₹545</p>
             </div>
@@ -98,23 +113,90 @@
     </section>
 
     <section class="testimonial">
-        <h2>What Our Happy Clients Say</h2>
-        <blockquote>
-            "Possibility to purchase at any time, regardless of the season, weather, and time of day. The plants I bought really enhanced my bedroom. I even got a gardening license and started my own little garden on the terrace."
-            <br> - <strong>Anna Frank</strong> (12 Sept 2024)
-        </blockquote>
+        <div class="testimonial-container">
+            <div class="testimonial-image">
+                <img src="images/client.png" alt="Happy Client">
+            </div>
+            <div class="testimonial-content">
+                <h2>What our happy client say</h2>
+                <p>
+                    “Possibility to purchase at any time, regardless of the season, weather, and time of day, 
+                    the plants I bought really enhanced my bedroom. I even got a gardening license and 
+                    started my own little garden on the terrace.”
+                </p>
+                <div class="testimonial-rating">
+                    ★ ★ ★ ★ ☆
+                </div>
+                <p class="testimonial-date">12 Sept 2024</p>
+                <p class="testimonial-author"><strong>Anna Frank</strong></p>
+                <div class="testimonial-nav">
+                    <span class="prev-arrow disabled">←</span>
+                    <span class="next-arrow">→</span>
+                </div>
+            </div>
+        </div>
     </section>
     
     <section class="newsletter">
         <h2>Join Our Newsletter</h2>
-        <p>Sign up for exclusive discounts, updates, and more</p>
-        <input type="email" placeholder="Enter email">
-        <button class="subscribe-btn">Subscribe</button>
+        <p>Sign up for our email newsletter to get exclusive discounts, updates, and more</p>
+        <div class="newsletter-form">
+            <input type="email" placeholder="Enter email">
+            <button>Shop Now</button>
+        </div>
     </section>
+    
 
 
     <footer>
-        <p>© Nature Nurture 1993-2024. All rights reserved.</p>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Nature Nurture Logo">
+            </div>
+    
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-column">
+                    <h4>Learn More</h4>
+                    <ul>
+                        <li><a href="#">Indoor Plants</a></li>
+                        <li><a href="#">Outdoor Plants</a></li>
+                        <li><a href="#">Cacti & Succulents</a></li>
+                        <li><a href="#">Pet Friendly Plants</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">General Info</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://youtube.com" target="_blank"><img src="images/youtube.svg" alt="YouTube"></a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <hr>
+            <p>© Nature Nurture 1993-2024 All rights reserved</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
